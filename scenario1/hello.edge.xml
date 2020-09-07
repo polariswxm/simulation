@@ -1,0 +1,44 @@
+
+<edges>
+ 	<edge id="1to3" from="node1" to="node3" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge>
+	<edge id="3to1" from="node3" to="node1" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge> 
+	<edge id="2to3" from="node2" to="node3" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge>
+	<edge id="3to2" from="node3" to="node2" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge>
+
+	<edge id="4to3" from="node4" to="node3" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge>
+	<edge id="3to4" from="node3" to="node4" priority="4" numLanes="3" speed="15">
+
+		<lane index="0" allow="pedestrian"/>
+	</edge>
+ 	<edge id="5to3" from="node5" to="node3" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge>
+
+	<edge id="3to5" from="node3" to="node5" priority="4" numLanes="3" speed="15">
+		<lane index="0" allow="pedestrian"/>
+	</edge> 
+
+        <edge id="4to6" from="node4" to="node6" priority="4" numLanes="3" speed="15">
+                <lane index="0" allow="pedestrian"/>
+        </edge>
+        <edge id="6to4" from="node6" to="node4" priority="4" numLanes="3" speed="15">
+                <lane index="0" allow="pedestrian"/>
+        </edge> 		
+	
+	<edge id="4to7" from="node4" to="node7" priority="4" numLanes="3" speed="15">
+                <lane index="0" allow="pedestrian"/>
+        </edge>
+        <edge id="7to4" from="node7" to="node4" priority="4" numLanes="3" speed="15">
+                <lane index="0" allow="pedestrian"/>
+        </edge> 
+</edges>

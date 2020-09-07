@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 日  8/16 23:39:18 2020 by Eclipse SUMO netedit Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/Users/meng1369/Desktop/sumo/hello4/bicycle.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/meng1369/Desktop/sumo/hello4/bicycle.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <opposites.guess.fix-lengths value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/Users/meng1369/Desktop/sumo/hello4/hello.add.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busstop1" lane="2to3_2" startPos="88.76" endPos="108.76" lines="101 102"/>
+    <busStop id="busstop10" lane="7to4_2" startPos="39.57" endPos="59.57"/>
+    <busStop id="busstop11" lane="4to7_2" startPos="90" endPos="110" lines="103"/>
+    <busStop id="busstop12" lane="6to4_2" startPos="53.80" endPos="73.80"/>
+    <busStop id="busstop2" lane="3to4_2" startPos="150" endPos="170" lines="101 103"/>
+    <busStop id="busstop3" lane="4to6_2" startPos="80" endPos="100" lines="101"/>
+    <busStop id="busstop4" lane="5to3_2" startPos="54.26" endPos="74.26" lines="103"/>
+    <busStop id="busstop5" lane="3to5_2" startPos="48.56" endPos="68.56"/>
+    <busStop id="busstop6" lane="3to2_2" startPos="65.91" endPos="85.91"/>
+    <busStop id="busstop7" lane="4to3_2" startPos="90" endPos="110"/>
+    <busStop id="busstop8" lane="1to3_2" startPos="61.13" endPos="81.13"/>
+    <busStop id="busstop9" lane="3to1_2" startPos="56.99" endPos="76.99"/>
+    <parkingArea id="ParkAreaA" lane="8to2_3" startPos="0" endPos="20" roadsideCapacity="5" length="30" angle="45.00"/>
+    <parkingArea id="ParkAreaB" lane="3to4_3" startPos="50" endPos="70" roadsideCapacity="3" length="30" angle="45.00"/>
+</additional>

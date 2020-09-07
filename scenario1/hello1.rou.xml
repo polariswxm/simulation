@@ -1,0 +1,538 @@
+<routes>
+
+    <person id="0" depart="0.00" jmDriveAfterRedTime="0" color="1,0,0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride from="2to3" to="3to4" lines="101"/>
+        <!-- <walk from="3to4" departPos="80" to="4to6"/> -->
+        <walk from="3to4" to="4to6" arrivalpos="40"/>
+        <stop lane="4to6_2" duration="20" startPos="50" actType="singing"/>
+        <walk from="4to6" busStop="busstop3"/>
+        <ride from="4to6" busStop="busstop3" lines="101"/>
+    </person>
+    <person id="0.0" depart="0.00" jmDriveAfterRedTime="0" color="1,0,0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride from="2to3" to="3to4" lines="101"/>
+        <!-- <walk from="3to4" departPos="80" to="4to6"/> -->
+        <walk from="3to4" to="4to6" arrivalpos="40"/>
+        <stop lane="4to6_0" duration="20" startPos="50" actType="singing"/>
+        <walk from="4to6" busStop="busstop3"/>
+        <ride from="4to6" busStop="busstop3" lines="101"/>
+    </person>
+    <person id="0.1" depart="0.00" jmDriveAfterRedTime="0" color="1,0,0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride from="2to3" to="3to4" lines="101"/>
+        <!-- <walk from="3to4" departPos="80" to="4to6"/> -->
+        <walk from="3to4" to="4to6" arrivalpos="40"/>
+        <stop lane="4to6_0" duration="20" startPos="50" actType="singing"/>
+        <walk from="4to6" busStop="busstop3"/>
+        <ride from="4to6" busStop="busstop3" lines="101"/>
+    </person>
+    <person id="0.2" depart="0.00" jmDriveAfterRedTime="0" color="1,0,0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride from="2to3" to="3to4" lines="101"/>
+        <!-- <walk from="3to4" departPos="80" to="4to6"/> -->
+        <walk from="3to4" to="4to6" arrivalpos="40"/>
+        <stop lane="4to6_0" duration="20" startPos="50" actType="singing"/>
+        <walk from="4to6" busStop="busstop3"/>
+        <ride from="4to6" busStop="busstop3" lines="101"/>
+    </person>
+
+
+    <person id="1" depart="0.00" color="0,1,0" guiShape ="pedestrian">
+        <ride from="8to2" to="3to4" lines="taxi"/>
+        <walk from="3to4" busStop="busstop2"/>
+        <ride busStop="busstop2" lines="101"/>
+    </person>
+    <person id="1.0" depart="0.00" color="0,1,0" guiShape ="pedestrian">
+        <ride from="8to2" to="3to4" lines="taxi"/>
+        <walk from="3to4" busStop="busstop2"/>
+        <ride busStop="busstop2" lines="101"/>
+    </person>
+    <person id="1.1" depart="0.00" color="0,1,0" guiShape ="pedestrian">
+        <ride from="8to2" to="3to4" lines="taxi"/>
+        <walk from="3to4" busStop="busstop2"/>
+        <ride busStop="busstop2" lines="101"/>
+    </person>
+    <person id="1.2" depart="0.00" color="0,1,0" guiShape ="pedestrian">
+        <ride from="8to2" to="3to4" lines="taxi"/>
+        <walk from="3to4" busStop="busstop2"/>
+        <ride busStop="busstop2" lines="101"/>
+    </person>
+    <person id="1.3" depart="0.00" color="0,1,0" guiShape ="pedestrian">
+        <ride from="8to2" to="3to4" lines="taxi"/>
+        <walk from="3to4" busStop="busstop2"/>
+        <ride busStop="busstop2" lines="101_1"/>
+    </person>
+
+    <person id="p1.1" depart="3.33" jmDriveAfterRedTime="1" color="0,1,1">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride from="2to3" to="3to4" lines="101"/>
+        <stop lane="3to4_0" duration="10" startPos="160" actType="singing"/>
+<!--         <walk from="3to4" busStop="busstop3"/>
+        <ride from="3to4" busStop="busstop3" lines="103"/> -->
+    </person>
+    <person id="p1.2" depart="6.67" color="0,1,1">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride from="2to3" to="3to4" lines="101"/>
+        <stop lane="3to4_0" duration="10" startPos="160" actType="singing"/>
+<!--         <walk from="3to4" busStop="busstop3"/>
+        <ride from="3to4" busStop="busstop3" lines="103"/> -->
+    </person>
+
+
+    <person id="2" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.0" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.1" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.2" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.3" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.4" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.5" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.6" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.7" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.8" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.9" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.10" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.11" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.12" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.13" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.14" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.15" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.16" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.17" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.18" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.19" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.20" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.21" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.22" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.23" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.24" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.25" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.26" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.27" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+    <person id="2.28" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+    </person>
+
+
+
+    <person id="3" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,1,1">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="102"/>
+    </person>
+    <person id="3.0" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,1,1">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="102"/>
+    </person>
+    <person id="3.1" depart="10.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="102"/>
+    </person>
+
+
+    <person id="4" depart="0.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="5to3" busStop="busstop4"/>
+        <ride busStop="busstop4" lines="103"/>
+    </person>
+      <person id="4.1" depart="0.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="5to3" busStop="busstop4"/>
+        <ride busStop="busstop4" lines="103"/>
+    </person>
+      <person id="4.2" depart="20.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="5to3" busStop="busstop4"/>
+        <ride busStop="busstop4" lines="103"/>
+    </person>
+      <person id="4.3" depart="20.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="5to3" busStop="busstop4"/>
+        <ride busStop="busstop4" lines="103"/>
+    </person>
+      <person id="4.4" depart="20.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="5to3" busStop="busstop4"/>
+        <ride busStop="busstop4" lines="103"/>
+    </person>
+      <person id="4.5" depart="20.00" jmDriveAfterRedTime="0" guiShape ="pedestrian" color="1,0,0">
+        <walk from="5to3" busStop="busstop4"/>
+        <ride busStop="busstop4" lines="103"/>
+    </person>
+
+
+
+
+<!--     <person id="4" depart="0.00" jmDriveAfterRedTime="0">
+        <ride from="8to2" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person> -->
+
+ 
+   <!--  <person id="4" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="5" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="6" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="7" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="8" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="9" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="10" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="11" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="12" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="13" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="14" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="15" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="16" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="17" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="18" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="19" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="20" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="21" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="22" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="23" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="24" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="25" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="26" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="27" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="28" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="29" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person> -->
+
+<!--     <person id="30" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="31" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="32" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="33" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="34" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="35" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="36" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="37" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="38" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+        <person id="39" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+    <person id="40" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+
+   <person id="41" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="42" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="43" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="44" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="45" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="46" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="47" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="48" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="49" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+       <person id="50" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+           <person id="51" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+           <person id="52" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+           <person id="53" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+           <person id="54" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person>
+           <person id="55" depart="0.00" jmDriveAfterRedTime="0">
+        <walk from="2to3" busStop="busstop1"/>
+        <ride busStop="busstop1" lines="101"/>
+        <walk busStop="busstop2" to="3to4"/>
+    </person> -->
+
+
+
+</routes>

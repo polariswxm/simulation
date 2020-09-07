@@ -1,0 +1,8 @@
+<routes>
+	<route id="route0" edges="2to3 3to4"/>
+	<vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="4" width = "2" minGap="3" maxSpeed="30" color="1,1,0"/>
+	<flow id="flow0" type="vtype0" route="route0" begin="0" period="1" number="30"/>
+	<personFlow id="p1" begin="0" route="route0" end="100" number="10"/>
+
+
+</routes>

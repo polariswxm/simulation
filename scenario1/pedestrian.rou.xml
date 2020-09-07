@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Aug 17 11:16:55 2020 by Eclipse SUMO duarouter Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="hello2.net.xml"/>
+        <route-files value="hello.personflow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="pedestrian.rou.xml"/>
+        <alternatives-output value="pedestrian.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <person id="p6.0" depart="0.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.0" depart="0.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.1" depart="7.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.1" depart="8.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.2" depart="14.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.2" depart="16.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.3" depart="21.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.3" depart="24.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.4" depart="28.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.4" depart="32.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.5" depart="35.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.5" depart="40.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.6" depart="42.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.6" depart="48.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.7" depart="49.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p6.8" depart="56.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.7" depart="56.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.9" depart="63.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.8" depart="64.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.10" depart="70.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.9" depart="72.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.11" depart="77.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.10" depart="80.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.12" depart="84.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.11" depart="88.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.13" depart="91.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.12" depart="96.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.14" depart="98.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p5.0" depart="100.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.1" depart="101.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.2" depart="102.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.3" depart="103.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.4" depart="104.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p7.13" depart="104.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p5.5" depart="105.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p6.15" depart="105.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p5.6" depart="106.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.7" depart="107.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.8" depart="108.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.9" depart="109.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.10" depart="110.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.11" depart="111.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.12" depart="112.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p6.16" depart="112.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.14" depart="112.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p5.13" depart="113.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.14" depart="114.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.15" depart="115.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.16" depart="116.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.17" depart="117.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.18" depart="118.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p5.19" depart="119.00">
+        <walk edges="6to4 4to7"/>
+    </person>
+    <person id="p6.17" depart="119.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.15" depart="120.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.18" depart="126.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.16" depart="128.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p6.19" depart="133.00" color="yellow">
+        <walk edges="1to3 3to4"/>
+        <walk edges="3to4 4to6"/>
+    </person>
+    <person id="p7.17" depart="136.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p7.18" depart="144.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p7.19" depart="152.00" color="cyan">
+        <walk edges="8to2 2to3"/>
+        <walk edges="2to3 3to5"/>
+    </person>
+    <person id="p4.0" depart="160.00">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.1" depart="160.67">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.2" depart="161.33">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.3" depart="162.00">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.4" depart="162.66">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.5" depart="163.33">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.6" depart="164.00">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.7" depart="164.66">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.8" depart="165.33">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.9" depart="165.99">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.10" depart="166.66">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.11" depart="167.33">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.12" depart="167.99">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.13" depart="168.66">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.14" depart="169.32">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.15" depart="169.99">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.16" depart="170.66">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.17" depart="171.32">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.18" depart="171.99">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.19" depart="172.65">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.20" depart="173.32">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.21" depart="173.99">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.22" depart="174.65">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.23" depart="175.32">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.24" depart="175.98">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.25" depart="176.65">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.26" depart="177.32">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.27" depart="177.98">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.28" depart="178.65">
+        <walk edges="7to4 4to3"/>
+    </person>
+    <person id="p4.29" depart="179.31">
+        <walk edges="7to4 4to3"/>
+    </person>
+</routes>

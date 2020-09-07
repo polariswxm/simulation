@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<route id="route0" edges="2to3 3to4"/>
+	<route id="route1" edges="4to3 3to2"/>
+	<route id="route2" edges="1to3 3to5"/>
+	<route id="route3" edges="5to3 3to1"/>
+	<!--<route id="route4" edges="2to3 3to4 4to3 3to2"/>-->
+
+ 
+   
+	<vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="4" width = "2" minGap="4.5" maxSpeed="14" color="1,1,0"/>
+	<vType id="vtype1" accel="2" decel="4.5" sigma="0.5" length="2" width = "1.6" minGap="3" maxSpeed="30" color="0,1,1"/>
+	<vType id="vtype2" accel="3" decel="4.5" sigma="0.5" length="3.5" width = "1.8" minGap="2" maxSpeed="30" color="1,0,1"/>
+	
+	<!--<flow id="flow0" type="vtype1" route="route0" begin="0" period="3" number="100"/>	-->
+	<!--<flow id="flow1" type="vtype0" route="route1" begin="0" period="3" number="100"/>	-->
+	<!--<flow id="flow2" type="vtype2" route="route2" begin="0" period="3" number="100"/>	-->
+	<!--<flow id="flow3" type="vtype0" route="route3" begin="0" period="3" number="100"/>-->
+
+	<vehicle id="777" route="route0" depart="0" color="0,1,1"/>
+	<vehicle id="778" route="route0" depart="10" color="1,1,0"/>
+	<!--<vehicle id="778" route="route4" depart="0" maxSpeed="1.5" color="1,1,1"/>-->
+
+
+<!-- 
+    <vType id="BUS" personCapacity="30" accel="2.6" decel="4.5" sigma="0" length="12" minGap="3" maxSpeed="70" color="1,1,0" guiShape="bus"/>
+
+    <vehicle id="101" type="BUS" depart="0" color="1,1,0">
+        <route edges="2to3 3to4 4to6"/>
+        <stop busStop="busStop1" duration="40"/>
+        <stop busStop="busStop2" duration="40"/>
+        <stop busStop="busStop3" duration="40"/>
+    </vehicle> -->
+   
+</routes>

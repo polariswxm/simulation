@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun Aug 16 17:09:10 2020 by Eclipse SUMO GUI Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="new.net.xml"/>
+        <route-files value="s2.rou.xml,person.rou.xml"/>
+        <additional-files value="new.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="63007"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <personinfo id="34" depart="1.00" type="DEFAULT_PEDTYPE"/>
+    <personinfo id="35" depart="2.00" type="DEFAULT_PEDTYPE"/>
+    <personinfo id="36" depart="3.00" type="DEFAULT_PEDTYPE"/>
+    <personinfo id="37" depart="4.00" type="DEFAULT_PEDTYPE"/>
+    <personinfo id="38" depart="5.00" type="DEFAULT_PEDTYPE"/>
+</tripinfos>

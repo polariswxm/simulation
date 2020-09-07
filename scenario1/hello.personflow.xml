@@ -1,0 +1,49 @@
+<flows>
+<!--    <personFlow id="p1" begin="0" end="100" number="10">
+        <walk from="2to3" to="3to4" />
+   </personFlow>
+
+   <personFlow id="p2" begin="20" end="100" number="20">
+        <walk from="5to3" to="3to1" /> 
+   </personFlow> -->
+
+<!--    <personFlow id="p3" begin="10" end="100" number="10">
+        <walk from="7to4" to="4to3" />
+        <walk from="4to3" to="3to1" />
+        <stop lane="3to1_0" duration="20" startPos="50" actType="singing"/>
+   </personFlow> -->
+
+
+   <personFlow id="p4" begin="160" end="180" number="30">
+        <walk from="7to4" to="4to3" /> 
+   </personFlow>
+
+   <personFlow id="p5" begin="100" end="120" number="20">
+        <walk from="6to4" to="4to7" /> 
+   </personFlow>
+
+   <personFlow id="p6" depart="120.00" end="140" color="1,1,0" number="20">
+        <walk from="1to3" to="3to4"/>
+        <walk from="3to4"  to="4to6"/>
+   </personFlow>
+
+    <personFlow id="p7" depart="140.00" end="160" color="0,1,1" number="20">
+        <walk from="8to2" to="2to3"/>
+        <walk from="2to3" to="3to5"/>     
+    </personFlow>
+
+<!--    <personFlow id="p8" begin="10" end="100" number="10">
+        <walk from="1to3" to="3to4" />
+        <walk from="3to4" to="4to6" />  
+        <stop lane="4to6_0" duration="20" startPos="30" actType="singing"/>
+   </personFlow> -->
+
+<!--   <personFlow id="p9" begin="10" end="100" number="20">
+        <walk from="1to3" to="3to4" />
+        <walk from="3to4" to="4to6" />     
+  </personFlow> -->
+
+
+
+  
+</flows>

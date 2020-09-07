@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<route id="route0" edges="2to3 3to4 4to8"/>
+	<route id="route1" edges="7to4 4to3 3to2"/>
+	<route id="route2" edges="1to3 3to5"/>
+	<route id="route3" edges="5to3 3to1"/>
+	<route id="route4" edges="2to3 3to4 4to8"/>
+    <route id="route5" edges="2to3 3to4 4to6"/>
+
+    <route id="route7" edges="8to4 4to3 3to5"/>
+    <route id="route8" edges="8to4 4to3 3to1"/>
+    <route id="route9" edges="1to3 3to5"/>
+
+
+	<vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="4" width = "2" minGap="3" maxSpeed="30" color="1,1,0"/>
+	<vType id="vtype1" accel="2.6" decel="4.5" sigma="0.5" length="3" width = "2.5" minGap="5" maxSpeed="20" color="0,0,1"/>
+	<vType id="Truck" accel="2.6" decel="4.5" sigma="0.5" length="3" width = "2.4" minGap="3.5" maxSpeed="30" color="1,0,0"/>
+	<vType id="Emergency" accel="2.5" decel="7.5" sigma="0.5" length="6.5" width = "2.16" minGap="6" maxSpeed="60" color="1,1,1"/>
+
+	<vType id="Taxi" accel="2.6" decel="4.5" sigma="0.5" length="4.3" width = "1.8" minGap="5" maxSpeed="30" color="1,0,1"/>
+
+    <vType id="BUS" personCapacity="30" accel="2.6" decel="4.5" sigma="0" length="8" minGap="7" maxSpeed="30" guiShape="bus"/>
+
+    <vType id="bike" vClass="bicycle" maxSpeed="5"/>
+
+    <flow id="flow5" type="bike" route="route0" begin="0" period="5" number="10"/>
+	<flow id="flow0" type="vtype1" route="route0" begin="0" period="1" number="30"/>
+
+    <vehicle id="777" route="route4" depart="0" line="taxi">
+        <param key="has.taxi.device" value="true"/>
+        <stop parkingArea="ParkAreaA" duration="20" triggered="true"/>
+        <stop parkingArea="ParkAreaB" duration="20" triggered="true"/>
+    </vehicle>
+
+
+    <vehicle id="102" type="BUS" depart="0" color="1,0,1">
+        <route edges="5to3 3to2"/>
+        <stop busStop="busStop6" duration="40"/>
+        <stop busStop="busStop1" duration="20"/>
+    </vehicle>
+
+
+
+    <vehicle id="101" type="BUS" depart="20" color="1,1,0">
+        <route edges="2to3 3to4 4to7"/>
+        <stop busStop="busStop0" duration="40"/>
+        <stop busStop="busStop4" duration="20"/>
+        <stop busStop="busStop10" duration="60"/>
+    </vehicle>
+
+
+
+    <flow id="flow2" type="vtype0" route="route2" begin="90" period="2" number="10"/>
+    <flow id="flow3" type="Taxi" route="route3" begin="90" period="0" number="50"/>
+    <flow id="flow4" type="vtype1" route="route9" begin="90" period="0" number="40"/>
+    <flow id="flow6" type="vtype1" route="route4" begin="100" period="0" number="10"/>
+
+
+
+
+     <vehicle id="780" route="route4" depart="100" line="taxi">
+        <param key="has.taxi.device" value="true"/>
+        <stop parkingArea="ParkAreaA" duration="20" triggered="true"/>
+        <stop parkingArea="ParkAreaB" duration="20" triggered="true"/>
+    </vehicle>
+
+    <vehicle id="103" type="BUS" depart="150" color="0,0,1">
+        <route edges="1to3 3to4 4to6"/>
+        <stop busStop="busStop3" duration="60"/>
+        <stop busStop="busStop4" duration="10"/>
+        <stop busStop="busStop8" duration="20"/>
+    </vehicle>
+
+     <vehicle id="781" route="route4" depart="150" line="taxi">
+        <param key="has.taxi.device" value="true"/>
+        <stop parkingArea="ParkAreaA" duration="20" triggered="true"/>
+        <stop parkingArea="ParkAreaB" duration="20" triggered="true"/>
+    </vehicle>
+
+   <vehicle id="101_2" type="BUS" depart="160" color="1,1,0">
+        <route edges="2to3 3to4 4to7"/>
+        <stop busStop="busStop0" duration="40"/>
+        <stop busStop="busStop4" duration="20"/>
+        <stop busStop="busStop10" duration="60"/>
+    </vehicle>
+
+     <vehicle id="779" route="route4" depart="180" line="taxi">
+        <param key="has.taxi.device" value="true"/>
+        <stop parkingArea="ParkAreaA" duration="20" triggered="true"/>
+        <stop parkingArea="ParkAreaB" duration="20" triggered="true"/>
+    </vehicle>
+
+    <vehicle id="101_1" type="BUS" depart="230" color="1,1,0">
+        <route edges="2to3 3to4 4to7"/>
+        <stop busStop="busStop0" duration="40"/>
+        <stop busStop="busStop4" duration="20"/>
+        <stop busStop="busStop10" duration="60"/>
+    </vehicle>
+    <!-- <flow id="flow1" type="Truck" route="route1" begin="80" period="3" number="20"/>    -->
+
+
+
+    <vehicle id="103_1" type="BUS" depart="230" color="0,0,1">
+        <route edges="1to3 3to4 4to6"/>
+        <stop busStop="busStop3" duration="60"/>
+        <stop busStop="busStop4" duration="10"/>
+        <stop busStop="busStop8" duration="20"/>
+    </vehicle>
+    <vehicle id="103_2" type="BUS" depart="350" color="0,0,1">
+        <route edges="1to3 3to4 4to6"/>
+        <stop busStop="busStop3" duration="60"/>
+        <stop busStop="busStop4" duration="10"/>
+        <stop busStop="busStop8" duration="20"/>
+    </vehicle>
+
+   
+
+<!-- 	<flow id="flow6" type="vtype0" route="route9" begin="100" period="5" number="10"/> -->
+
+ <!--    <flow id="flow8" type="vtype1" route="route8" begin="0" period="3" number="20"/> -->
+<!--     <flow id="flow9" type="vtype1" route="route0" begin="120" period="3" number="10"/>
+    <flow id="flow10" type="Taxi" route="route1" begin="120" period="3" number="10"/>
+    <flow id="flow11" type="vtype1" route="route2" begin="120" period="3" number="20"/>
+    <flow id="flow12" type="Taxi" route="route3" begin="150" period="3" number="10"/>
+    <flow id="flow13" type="vtype0" route="route4" begin="150" period="8" number="20"/>
+
+    <flow id="flow15" type="vtype1" route="route6" begin="180" period="6" number="10"/>
+    <flow id="flow16" type="vtype0" route="route7" begin="200" period="3" number="20"/>
+    <flow id="flow7" type="vtype1" route="route9" begin="200" period="3" number="10"/>
+
+    <flow id="flow17" type="Emergency" route="route8" begin="230" period="10" number="2"/>
+ -->
+
+
+
+
+    <vehicle id="102_1" type="BUS" depart="380" color="1,0,1">
+        <route edges="5to3 3to2"/>
+        <stop busStop="busStop6" duration="40"/>
+        <stop busStop="busStop1" duration="20"/>
+    </vehicle>
+
+
+
+
+
+
+</routes>
